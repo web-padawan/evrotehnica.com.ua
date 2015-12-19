@@ -2,14 +2,10 @@
   overflow: hidden;
 
   .views-row {
-    @include span(1 of 3);
+    display: inline-block;
+    max-width: 32.5%;
     position: relative;
-    margin-bottom: 20px;
-  }
-
-  .views-row-3,
-  .views-row-6 {
-    @include last;
+    margin: 5px 0 5px 0.5%;
   }
 
   .views-field-body {
