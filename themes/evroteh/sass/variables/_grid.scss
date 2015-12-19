@@ -1,0 +1,16 @@
+$vert-spacing-unit: 24px;
+$horz-spacing-unit: 1rem;
+
+$susy: (
+  columns: 12,
+  container: 1260px,
+  gutters: .25,
+  gutter-position: inside,
+  debug: (
+    // image: show,
+  )
+);
+
+%container {
+  @include container;
+}
