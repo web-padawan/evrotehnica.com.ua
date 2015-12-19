@@ -221,6 +221,36 @@ a {
   cursor: default;
 }
 
+.view-objects {
+  overflow: hidden;
+}
+.view-objects .views-row {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 33.33333%;
+  float: left;
+  padding-left: 3.33333%;
+  padding-right: 3.33333%;
+  position: relative;
+  margin-bottom: 20px;
+}
+.view-objects .views-row-3,
+.view-objects .views-row-6 {
+  float: right;
+}
+.view-objects .views-field-body {
+  position: absolute;
+  bottom: 0;
+  max-width: 60%;
+  padding: 10px;
+  background: #2b2b2b;
+  color: #fff;
+}
+.view-objects img {
+  vertical-align: top;
+}
+
 @keyframes fadein {
   from {
     opacity: 0;

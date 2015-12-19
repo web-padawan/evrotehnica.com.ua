@@ -1,0 +1,27 @@
+.view-objects {
+  overflow: hidden;
+
+  .views-row {
+    @include span(1 of 3);
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  .views-row-3,
+  .views-row-6 {
+    @include last;
+  }
+
+  .views-field-body {
+    position: absolute;
+    bottom: 0;
+    max-width: 60%;
+    padding: 10px;
+    background: #2b2b2b;
+    color: #fff;
+  }
+
+  img {
+    vertical-align: top;
+  }
+}

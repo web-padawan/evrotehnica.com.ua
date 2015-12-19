@@ -9,11 +9,14 @@ core = 7.x
 ; Stylesheets
 ; ========================================
 stylesheets[all][] = css/evroteh.styles.css
+stylesheets[all][] = css/magnific-popup.css
 
 ; ========================================
 ; Scripts
 ; ========================================
 scripts[] = js/evroteh.behaviors.js
+scripts[] = js/lib/magnific-popup.min.js
+scripts[] = js/evroteh.js
 
 ; ========================================
 ; Regions
