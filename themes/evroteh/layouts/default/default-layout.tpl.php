@@ -33,9 +33,10 @@
         <?php print render($page['branding']); ?>
       </div>
 
-      <?php print render($page['header']); ?>
       <?php print render($page['header_nav']); ?>
     </div>
+
+    <?php print render($page['header']); ?>
   </header>
 
   <?php if ($page['navigation']): ?>
