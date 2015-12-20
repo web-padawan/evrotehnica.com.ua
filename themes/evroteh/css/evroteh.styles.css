@@ -279,6 +279,12 @@ a {
 .block--views-objects-block {
   text-align: center;
 }
+.block--views-objects-block .block__title {
+  margin-top: 50px;
+}
+.block--views-objects-block .block__content {
+  padding: 50px 0 100px;
+}
 
 .view-objects .views-row {
   display: inline-block;
@@ -289,10 +295,33 @@ a {
 .view-objects .views-field-body {
   position: absolute;
   bottom: 0;
-  max-width: 60%;
-  padding: 10px;
+  max-width: 78%;
+  min-height: 110px;
+  padding: 15px 5px 15px 10px;
   background: #2b2b2b;
   color: #fff;
+  text-align: left;
+  font-family: "HeliosCondC", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.01em;
+  line-height: 1.25;
+}
+.view-objects .views-row-1 .views-field-body {
+  border-right: solid 32px #4baf4f;
+}
+.view-objects .views-row-2 .views-field-body {
+  border-right: solid 32px #019587;
+}
+.view-objects .views-row-3 .views-field-body {
+  border-right: solid 32px #bac927;
+}
+.view-objects .views-row-4 .views-field-body {
+  border-right: solid 32px #f44236;
+}
+.view-objects .views-row-5 .views-field-body {
+  border-right: solid 32px #6739b6;
+}
+.view-objects .views-row-6 .views-field-body {
+  border-right: solid 32px #ff9700;
 }
 .view-objects img {
   vertical-align: top;
