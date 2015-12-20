@@ -269,9 +269,17 @@ a {
   font-weight: bold;
   font-style: normal;
 }
-.view-objects {
-  overflow: hidden;
+.block--views-objects-block .block__title {
+  font-family: "Pobeda", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 46px;
+  color: #2e2e2e;
 }
+
+.block--views-objects-block {
+  text-align: center;
+}
+
 .view-objects .views-row {
   display: inline-block;
   max-width: 32.5%;

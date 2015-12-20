@@ -1,5 +1,12 @@
+.block--views-objects-block {
+  text-align: center;
+
+  .block__title {
+    @extend %heading-gray;
+  }
+}
+
 .view-objects {
-  overflow: hidden;
 
   .views-row {
     display: inline-block;
