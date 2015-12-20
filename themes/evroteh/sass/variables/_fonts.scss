@@ -1,0 +1,20 @@
+// HeliosC
+@include font-face('HeliosC', font-files('HeliosC.woff', woff, 'HeliosC.ttf', ttf), 'HeliosC.eot');
+@include font-face('HeliosC', font-files('HeliosC-Bold.woff', woff, 'HeliosC-Bold.ttf', ttf), 'HeliosC-Bold.eot', bold, normal);
+@include font-face('HeliosC', font-files('HeliosC-Italic.woff', woff, 'HeliosC-Italic.ttf', ttf), 'HeliosC-Italic.eot', normal, italic);
+
+// HeliosCondC
+@include font-face('HeliosCondC', font-files('HeliosCondC.woff', woff, 'HeliosCondC.ttf', ttf), 'HeliosCondC.eot');
+@include font-face('HeliosCondC', font-files('HeliosCondC-Bold.woff', woff, 'HeliosCondC-Bold.ttf', ttf), 'HeliosCondC-Bold.eot', bold, normal);
+
+// HeliosLightC
+@include font-face('HeliosLightC', font-files('HeliosLightC.woff', woff, 'HeliosLightC.ttf', ttf), 'HeliosLightC.eot');
+
+// Pobeda
+@include font-face('Pobeda', font-files('Pobeda-Regular.woff', woff, 'Pobeda-Regular.ttf', ttf), 'Pobeda-Regular.eot');
+@include font-face('Pobeda', font-files('Pobeda-Bold.woff', woff, 'Pobeda-Bold.ttf', ttf), 'Pobeda-Bold.eot', bold, normal);
+
+$heliosc        : 'HeliosC', Helvetica, Arial, sans-serif;
+$heliosc-cond   : 'HeliosCondC', Helvetica, Arial, sans-serif;
+$heliosc-light  : 'HeliosLightC', Helvetica, Arial, sans-serif;
+$pobeda         : 'Pobeda', Helvetica, Arial, sans-serif;
