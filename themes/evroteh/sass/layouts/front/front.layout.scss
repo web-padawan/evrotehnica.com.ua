@@ -1,0 +1,26 @@
+@import 'compass';
+@import 'breakpoint';
+@import 'susy';
+
+@import '../../variables/_grid.scss';
+
+.header {
+  position: relative;
+  top: 72px;
+
+  &__container {
+    @extend %container;
+  }
+}
+
+.main {
+  &__container {
+    @extend %container;
+  }
+}
+
+.footer {
+  &__container {
+    @extend %container;
+  }
+}
