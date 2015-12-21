@@ -1,0 +1,67 @@
+.navbar {
+  position: fixed;
+  z-index: 200;
+  width: 100%;
+  height: 72px;
+  background: #343434;
+
+  &__container {
+    @extend %container;
+  }
+
+  &__logo {
+    @include replace-text('logo.png');
+    float: left;
+    margin: 24px 30px 24px 0;
+    width: 146px;
+    height: 25px;
+  }
+
+  &__nav {
+    @include span(7 of 12 nest);
+    list-style-type: none;
+  }
+
+  &__item {
+    float: left;
+    margin: 0 25px;
+    padding: 28px 0;
+    text-align: center;
+  }
+
+  &__link {
+    color: #fff;
+    font-family: $heliosc-light;
+    text-decoration: none;
+    &:hover {
+      color: #04ade4;
+      text-decoration: underline;
+    }
+  }
+
+  &__feedback {
+    float: right;
+    margin-right: 35px;
+    padding: 28px 0;
+    color: #04ade4;
+    font-family: $heliosc;
+    font-weight: bold;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__subscribe {
+    float: right;
+    padding: 28px 20px;
+    background: #04ade4;
+    color: #fff;
+    font-family: $heliosc-light;
+    text-decoration: none;
+    text-transform: uppercase;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
