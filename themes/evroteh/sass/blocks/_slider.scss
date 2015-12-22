@@ -23,6 +23,30 @@
   height: 688px;
   background-repeat: no-repeat;
   background-position: center top;
+
+  &__container {
+    @include container;
+    height: 100%;
+    position: relative;
+  }
+
+  &__logo {
+    background: image-url('logo-white.png') no-repeat;
+    width: 351px;
+    height: 61px;
+    position: absolute;
+    .views-row-1 & {
+      right: 60px;
+      bottom: 60px;
+    }
+    .views-row-2 & {
+      top: 300px;
+      left: 20px;
+    }
+    .views-row-3 & {
+      bottom: 100px;
+    }
+  }
 }
 
 // stretch slide to full screen

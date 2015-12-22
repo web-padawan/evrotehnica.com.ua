@@ -223,49 +223,49 @@ a {
 
 @font-face {
   font-family: "HeliosC";
-  src: url('../fonts/HeliosC.eot?1450638736');
-  src: url('../fonts/HeliosC.eot?&1450638736#iefix') format('embedded-opentype'), url('../fonts/HeliosC.woff?1450638736') format('woff'), url('../fonts/HeliosC.ttf?1450638736') format('truetype');
+  src: url('../fonts/HeliosC.eot?1450764735');
+  src: url('../fonts/HeliosC.eot?&1450764735#iefix') format('embedded-opentype'), url('../fonts/HeliosC.woff?1450764735') format('woff'), url('../fonts/HeliosC.ttf?1450764735') format('truetype');
 }
 @font-face {
   font-family: "HeliosC";
-  src: url('../fonts/HeliosC-Bold.eot?1450638734');
-  src: url('../fonts/HeliosC-Bold.eot?&1450638734#iefix') format('embedded-opentype'), url('../fonts/HeliosC-Bold.woff?1450638734') format('woff'), url('../fonts/HeliosC-Bold.ttf?1450638734') format('truetype');
+  src: url('../fonts/HeliosC-Bold.eot?1450764735');
+  src: url('../fonts/HeliosC-Bold.eot?&1450764735#iefix') format('embedded-opentype'), url('../fonts/HeliosC-Bold.woff?1450764735') format('woff'), url('../fonts/HeliosC-Bold.ttf?1450764735') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: "HeliosC";
-  src: url('../fonts/HeliosC-Italic.eot?1450638734');
-  src: url('../fonts/HeliosC-Italic.eot?&1450638734#iefix') format('embedded-opentype'), url('../fonts/HeliosC-Italic.woff?1450638734') format('woff'), url('../fonts/HeliosC-Italic.ttf?1450638734') format('truetype');
+  src: url('../fonts/HeliosC-Italic.eot?1450764735');
+  src: url('../fonts/HeliosC-Italic.eot?&1450764735#iefix') format('embedded-opentype'), url('../fonts/HeliosC-Italic.woff?1450764735') format('woff'), url('../fonts/HeliosC-Italic.ttf?1450764735') format('truetype');
   font-weight: normal;
   font-style: italic;
 }
 @font-face {
   font-family: "HeliosCondC";
-  src: url('../fonts/HeliosCondC.eot?1450638736');
-  src: url('../fonts/HeliosCondC.eot?&1450638736#iefix') format('embedded-opentype'), url('../fonts/HeliosCondC.woff?1450638736') format('woff'), url('../fonts/HeliosCondC.ttf?1450638736') format('truetype');
+  src: url('../fonts/HeliosCondC.eot?1450764735');
+  src: url('../fonts/HeliosCondC.eot?&1450764735#iefix') format('embedded-opentype'), url('../fonts/HeliosCondC.woff?1450764735') format('woff'), url('../fonts/HeliosCondC.ttf?1450764735') format('truetype');
 }
 @font-face {
   font-family: "HeliosCondC";
-  src: url('../fonts/HeliosCondC-Bold.eot?1450638734');
-  src: url('../fonts/HeliosCondC-Bold.eot?&1450638734#iefix') format('embedded-opentype'), url('../fonts/HeliosCondC-Bold.woff?1450638734') format('woff'), url('../fonts/HeliosCondC-Bold.ttf?1450638734') format('truetype');
+  src: url('../fonts/HeliosCondC-Bold.eot?1450764735');
+  src: url('../fonts/HeliosCondC-Bold.eot?&1450764735#iefix') format('embedded-opentype'), url('../fonts/HeliosCondC-Bold.woff?1450764735') format('woff'), url('../fonts/HeliosCondC-Bold.ttf?1450764735') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: "HeliosLightC";
-  src: url('../fonts/HeliosLightC.eot?1450638734');
-  src: url('../fonts/HeliosLightC.eot?&1450638734#iefix') format('embedded-opentype'), url('../fonts/HeliosLightC.woff?1450638734') format('woff'), url('../fonts/HeliosLightC.ttf?1450638734') format('truetype');
+  src: url('../fonts/HeliosLightC.eot?1450764735');
+  src: url('../fonts/HeliosLightC.eot?&1450764735#iefix') format('embedded-opentype'), url('../fonts/HeliosLightC.woff?1450764735') format('woff'), url('../fonts/HeliosLightC.ttf?1450764735') format('truetype');
 }
 @font-face {
   font-family: "Pobeda";
-  src: url('../fonts/Pobeda-Regular.eot?1450638734');
-  src: url('../fonts/Pobeda-Regular.eot?&1450638734#iefix') format('embedded-opentype'), url('../fonts/Pobeda-Regular.woff?1450638734') format('woff'), url('../fonts/Pobeda-Regular.ttf?1450638734') format('truetype');
+  src: url('../fonts/Pobeda-Regular.eot?1450764735');
+  src: url('../fonts/Pobeda-Regular.eot?&1450764735#iefix') format('embedded-opentype'), url('../fonts/Pobeda-Regular.woff?1450764735') format('woff'), url('../fonts/Pobeda-Regular.ttf?1450764735') format('truetype');
 }
 @font-face {
   font-family: "Pobeda";
-  src: url('../fonts/Pobeda-Bold.eot?1450638734');
-  src: url('../fonts/Pobeda-Bold.eot?&1450638734#iefix') format('embedded-opentype'), url('../fonts/Pobeda-Bold.woff?1450638734') format('woff'), url('../fonts/Pobeda-Bold.ttf?1450638734') format('truetype');
+  src: url('../fonts/Pobeda-Bold.eot?1450764735');
+  src: url('../fonts/Pobeda-Bold.eot?&1450764735#iefix') format('embedded-opentype'), url('../fonts/Pobeda-Bold.woff?1450764735') format('woff'), url('../fonts/Pobeda-Bold.ttf?1450764735') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
@@ -299,7 +299,7 @@ a {
   overflow: hidden;
   text-align: left;
   text-transform: capitalize;
-  background-image: url('../images/logo.png?1450706146');
+  background-image: url('../images/logo.png?1450764735');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   float: left;
@@ -431,6 +431,35 @@ a {
   height: 688px;
   background-repeat: no-repeat;
   background-position: center top;
+}
+.slider__container {
+  max-width: 1260px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  position: relative;
+}
+.slider__container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+.slider__logo {
+  background: url('../images/logo-white.png?1450765282') no-repeat;
+  width: 351px;
+  height: 61px;
+  position: absolute;
+}
+.views-row-1 .slider__logo {
+  right: 60px;
+  bottom: 60px;
+}
+.views-row-2 .slider__logo {
+  top: 300px;
+  left: 20px;
+}
+.views-row-3 .slider__logo {
+  bottom: 100px;
 }
 
 .views_slideshow_slide {
