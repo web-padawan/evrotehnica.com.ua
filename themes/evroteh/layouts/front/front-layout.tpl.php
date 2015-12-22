@@ -19,6 +19,49 @@
     <?php print views_embed_view('slider', 'block'); ?>
   </header>
 
+  <div class="about">
+    <div class="about__container">
+      <h2 class="about__title">О компании</h2>
+      <div class="about__content">
+        <p class="about__text">Компания «Евротехника» на рынке бытовой и климатической техники с 1995 года.</p>
+        <p class="about__text">
+          <span>Уже более 20 лет наша компания работает в направлении климатического оборудования, отопительной,</span>
+          <span>бытовой и встраиваемой техники ведущих мировых брендов. Сегодня Евротехника является дилером многих торговых марок.</span>
+          <span>Занимается оптовой продажей, имеет розничную сеть, сервисный центр и интернет-магазин.</span>
+          <span>Сертифицированные сотрудники сервисного центра имеют большой опыт работы на технически сложных объектах.</span>
+        </p>
+        <p class="about__text">Индивидуальный подход к каждому клиенту!</p>
+      </div>
+      <h2 class="about__title">Евротехника это</h2>
+      <ul class="about__list">
+        <li class="about__item">
+          <div class="about__icon about__icon--lamp">&nbsp;</div>
+          <div class="about__descr about__descr--lamp">Инновационное оборудование</div>
+        </li>
+        <li class="about__item">
+          <div class="about__icon about__icon--shield">&nbsp;</div>
+          <div class="about__descr about__descr--shield">Гарантия от производителя</div>
+        </li>
+        <li class="about__item">
+          <div class="about__icon about__icon--lorry">&nbsp;</div>
+          <div class="about__descr about__descr--lorry">Поставка в любую точку Украины</div>
+        </li>
+        <li class="about__item">
+          <div class="about__icon about__icon--man">&nbsp;</div>
+          <div class="about__descr about__descr--man">Большой опыт<br>работы на технически сложных объектах</div>
+        </li>
+        <li class="about__item">
+          <div class="about__icon about__icon--service">&nbsp;</div>
+          <div class="about__descr about__descr--service">Сервисный центр</div>
+        </li>
+        <li class="about__item">
+          <div class="about__icon about__icon--master">&nbsp;</div>
+          <div class="about__descr about__descr--master">Опыт. Надежность. Качество</div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
   <div class="clients">
     <div class="clients__container">
       <h2 class="clients__title">Наши клиенты</h2>

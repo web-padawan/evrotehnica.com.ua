@@ -1,0 +1,86 @@
+.about {
+  background: #04ade4;
+  color: #fff;
+  text-align: center;
+
+  &__container {
+    @extend %container;
+  }
+
+  &__title {
+    @extend %heading-white;
+    padding: 50px 0;
+  }
+
+  &__content {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  &__text {
+    font-family: $heliosc;
+    font-size: 20px;
+    line-height: 1.25;
+  }
+
+  &__list {
+    max-width: 80%;
+    margin: 0 auto;
+    list-style-type: none;
+    text-align: left;
+  }
+
+  &__item {
+    max-width: 320px;
+    margin: 0 10px 40px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  &__icon {
+    display: inline-block;
+    vertical-align: top;
+
+    &--service {
+      position: relative;
+      top: 10px;
+    }
+  }
+
+  &__descr {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 225px;
+    margin-left: 15px;
+    padding-left: 15px;
+    border-left: solid 2px #4f4f4f;
+    font-family: $pobeda;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+
+    &--shield {
+      position: relative;
+      left: 10px;
+    }
+    &--lorry {
+      position: relative;
+      left: 15px;
+    }
+    &--man {
+      font-size: 26px;
+    }
+    &--service {
+      font-size: 36px;
+    }
+  }
+}
+
+
+$list: lamp, shield, lorry, man, service, master;
+
+@each $l in $list {
+  .about__icon--#{$l} {
+    @include s(#{$l});
+  }
+}
