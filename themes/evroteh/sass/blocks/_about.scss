@@ -8,7 +8,7 @@
   }
 
   &__title {
-    @extend %heading-white;
+    @include heading-white(46px);
     padding: 50px 0;
   }
 
@@ -54,9 +54,7 @@
     margin-left: 15px;
     padding-left: 15px;
     border-left: solid 2px #4f4f4f;
-    font-family: $pobeda;
-    font-weight: bold;
-    font-size: 30px;
+    @include heading-white(30px);
     text-align: left;
 
     &--shield {

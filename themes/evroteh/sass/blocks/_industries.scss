@@ -1,0 +1,122 @@
+.industries {
+  padding-top: 50px;
+  text-align: center;
+
+  &__container {
+    @extend %container;
+  }
+
+  &__title {
+    @include heading-gray(46px);
+    margin-bottom: 75px;
+  }
+
+  &__list {
+    list-style-type: none;
+    text-align: center;
+  }
+
+  &__item {
+    width: 250px;
+    margin: 0 20px 40px;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  &__disc {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 131px;
+    height: 131px;
+    line-height: 131px;
+    border-radius: 50%;
+
+    &--turbine {
+      background: #f44236;
+    }
+    &--condition {
+      background: #019587;
+    }
+    &--collector {
+      background: #ff9700;
+    }
+    &--appliance {
+      background: #bac927;
+    }
+    &--radiator {
+      background: #4baf4f;
+    }
+    &--convector {
+      background: #6739b6;
+    }
+    &--tv {
+      background: #04ade4;
+    }
+    &--builtin {
+      background: #bb3baa;
+    }
+  }
+
+  &__icon {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+
+    &--collector {
+      position: relative;
+      top: -5px;
+    }
+  }
+
+  &__itemname {
+    @include heading-gray(30px);
+    max-width: 250px;
+    margin: 0 auto;
+    &--builtin {
+      max-width: 220px;
+    }
+  }
+
+  &__descr {
+    max-width: 210px;
+    margin: 15px auto 0;
+    padding-top: 10px;
+    font-family: $heliosc-cond;
+    font-size: 17px;
+    color: #656565;
+
+    &--turbine {
+      border-top: solid 1px #f44236;
+    }
+    &--condition {
+      border-top: solid 1px #019587;
+    }
+    &--collector {
+      border-top: solid 1px #ff9700;
+    }
+    &--appliance {
+      border-top: solid 1px #bac927;
+    }
+    &--radiator {
+      border-top: solid 1px #4baf4f;
+    }
+    &--convector {
+      border-top: solid 1px #6739b6;
+    }
+    &--tv {
+      border-top: solid 1px #04ade4;
+    }
+    &--builtin {
+      border-top: solid 1px #bb3baa;
+    }
+  }
+}
+
+$indust: turbine, condition, collector, appliance, radiator, convector, tv, builtin;
+
+@each $i in $indust {
+  .industries__icon--#{$i} {
+    @include s(#{$i});
+  }
+}

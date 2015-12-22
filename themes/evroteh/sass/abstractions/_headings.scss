@@ -1,13 +1,13 @@
-%heading-gray {
+@mixin heading-gray($size) {
   font-family: $pobeda;
   font-weight: bold;
-  font-size: 46px;
+  font-size: $size;
   color: #2e2e2e;
 }
 
-%heading-white {
+@mixin heading-white($size) {
   font-family: $pobeda;
   font-weight: bold;
-  font-size: 46px;
+  font-size: $size;
   color: #fff;
 }

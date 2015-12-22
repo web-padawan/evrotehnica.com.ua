@@ -2,7 +2,7 @@
   text-align: center;
 
   &__title {
-    @extend %heading-gray;
+    @include heading-gray(46px);
     margin-top: 50px;
   }
 

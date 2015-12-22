@@ -269,29 +269,15 @@ a {
   font-weight: bold;
   font-style: normal;
 }
-.about__container, .clients__container, .navbar__container {
+.about__container, .clients__container, .industries__container, .navbar__container {
   max-width: 1260px;
   margin-left: auto;
   margin-right: auto;
 }
-.about__container:after, .clients__container:after, .navbar__container:after {
+.about__container:after, .clients__container:after, .industries__container:after, .navbar__container:after {
   content: " ";
   display: block;
   clear: both;
-}
-
-.clients__title, .objects__title {
-  font-family: "Pobeda", Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  font-size: 46px;
-  color: #2e2e2e;
-}
-
-.about__title {
-  font-family: "Pobeda", Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  font-size: 46px;
-  color: #fff;
 }
 
 .about {
@@ -300,6 +286,10 @@ a {
   text-align: center;
 }
 .about__title {
+  font-family: "Pobeda", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 46px;
+  color: #fff;
   padding: 50px 0;
 }
 .about__content {
@@ -341,6 +331,7 @@ a {
   font-family: "Pobeda", Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 30px;
+  color: #fff;
   text-align: left;
 }
 .about__descr--shield {
@@ -359,37 +350,37 @@ a {
 }
 
 .about__icon--lamp {
-  background: url('../images/generated/icons-s44909e6858.png') 0 -91px no-repeat;
+  background: url('../images/generated/icons-sfe8c51d9cb.png') -72px -109px no-repeat;
   width: 55px;
   height: 56px;
 }
 
 .about__icon--shield {
-  background: url('../images/generated/icons-s44909e6858.png') 0 -187px no-repeat;
+  background: url('../images/generated/icons-sfe8c51d9cb.png') 0 -169px no-repeat;
   width: 43px;
   height: 51px;
 }
 
 .about__icon--lorry {
-  background: url('../images/generated/icons-s44909e6858.png') -95px -187px no-repeat;
+  background: url('../images/generated/icons-sfe8c51d9cb.png') -95px -169px no-repeat;
   width: 68px;
   height: 53px;
 }
 
 .about__icon--man {
-  background: url('../images/generated/icons-s44909e6858.png') -55px -91px no-repeat;
+  background: url('../images/generated/icons-sfe8c51d9cb.png') -73px -422px no-repeat;
   width: 55px;
   height: 60px;
 }
 
 .about__icon--service {
-  background: url('../images/generated/icons-s44909e6858.png') -43px -187px no-repeat;
+  background: url('../images/generated/icons-sfe8c51d9cb.png') -43px -169px no-repeat;
   width: 52px;
   height: 52px;
 }
 
 .about__icon--master {
-  background: url('../images/generated/icons-s44909e6858.png') -135px -363px no-repeat;
+  background: url('../images/generated/icons-sfe8c51d9cb.png') 0 -109px no-repeat;
   width: 72px;
   height: 55px;
 }
@@ -400,6 +391,10 @@ a {
   text-align: center;
 }
 .clients__title {
+  font-family: "Pobeda", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 46px;
+  color: #2e2e2e;
   margin-bottom: 75px;
 }
 .clients__list {
@@ -417,63 +412,218 @@ a {
 }
 
 .clients__link--mts {
-  background: url('../images/generated/icons-s44909e6858.png') 0 -428px no-repeat;
+  background: url('../images/generated/icons-sfe8c51d9cb.png') 0 -550px no-repeat;
   width: 146px;
   height: 78px;
 }
 
 .clients__link--vega {
-  background: url('../images/generated/icons-s44909e6858.png') 0 -240px no-repeat;
+  background: url('../images/generated/icons-sfe8c51d9cb.png') 0 -228px no-repeat;
   width: 181px;
   height: 59px;
 }
 
 .clients__link--reikartz {
-  background: url('../images/generated/icons-s44909e6858.png') 0 -670px no-repeat;
+  background: url('../images/generated/icons-sfe8c51d9cb.png') -96px -792px no-repeat;
   width: 102px;
   height: 108px;
 }
 
 .clients__link--atb {
-  background: url('../images/generated/icons-s44909e6858.png') -110px -91px no-repeat;
+  background: url('../images/generated/icons-sfe8c51d9cb.png') 0 -792px no-repeat;
   width: 96px;
   height: 96px;
 }
 
 .clients__link--uz {
-  background: url('../images/generated/icons-s44909e6858.png') 0 -506px no-repeat;
+  background: url('../images/generated/icons-sfe8c51d9cb.png') 0 -628px no-repeat;
   width: 181px;
   height: 82px;
 }
 
 .clients__link--eva {
-  background: url('../images/generated/icons-s44909e6858.png') 0 -588px no-repeat;
+  background: url('../images/generated/icons-sfe8c51d9cb.png') 0 -710px no-repeat;
   width: 137px;
   height: 82px;
 }
 
 .clients__link--prostor {
-  background: url('../images/generated/icons-s44909e6858.png') 0 -299px no-repeat;
+  background: url('../images/generated/icons-sfe8c51d9cb.png') 0 -358px no-repeat;
   width: 179px;
   height: 64px;
 }
 
 .clients__link--brusnichka {
-  background: url('../images/generated/icons-s44909e6858.png') 0 -45px no-repeat;
+  background: url('../images/generated/icons-sfe8c51d9cb.png') 0 -45px no-repeat;
   width: 178px;
   height: 46px;
 }
 
 .clients__link--abk {
-  background: url('../images/generated/icons-s44909e6858.png') 0 -363px no-repeat;
+  background: url('../images/generated/icons-sfe8c51d9cb.png') 0 -485px no-repeat;
   width: 135px;
   height: 65px;
 }
 
 .clients__link--garvis {
-  background: url('../images/generated/icons-s44909e6858.png') 0 0 no-repeat;
+  background: url('../images/generated/icons-sfe8c51d9cb.png') 0 0 no-repeat;
   width: 222px;
   height: 45px;
+}
+
+.industries {
+  padding-top: 50px;
+  text-align: center;
+}
+.industries__title {
+  font-family: "Pobeda", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 46px;
+  color: #2e2e2e;
+  margin-bottom: 75px;
+}
+.industries__list {
+  list-style-type: none;
+  text-align: center;
+}
+.industries__item {
+  width: 250px;
+  margin: 0 20px 40px;
+  display: inline-block;
+  vertical-align: top;
+}
+.industries__disc {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 131px;
+  height: 131px;
+  line-height: 131px;
+  border-radius: 50%;
+}
+.industries__disc--turbine {
+  background: #f44236;
+}
+.industries__disc--condition {
+  background: #019587;
+}
+.industries__disc--collector {
+  background: #ff9700;
+}
+.industries__disc--appliance {
+  background: #bac927;
+}
+.industries__disc--radiator {
+  background: #4baf4f;
+}
+.industries__disc--convector {
+  background: #6739b6;
+}
+.industries__disc--tv {
+  background: #04ade4;
+}
+.industries__disc--builtin {
+  background: #bb3baa;
+}
+.industries__icon {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+.industries__icon--collector {
+  position: relative;
+  top: -5px;
+}
+.industries__itemname {
+  font-family: "Pobeda", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #2e2e2e;
+  max-width: 250px;
+  margin: 0 auto;
+}
+.industries__itemname--builtin {
+  max-width: 220px;
+}
+.industries__descr {
+  max-width: 210px;
+  margin: 15px auto 0;
+  padding-top: 10px;
+  font-family: "HeliosCondC", Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  color: #656565;
+}
+.industries__descr--turbine {
+  border-top: solid 1px #f44236;
+}
+.industries__descr--condition {
+  border-top: solid 1px #019587;
+}
+.industries__descr--collector {
+  border-top: solid 1px #ff9700;
+}
+.industries__descr--appliance {
+  border-top: solid 1px #bac927;
+}
+.industries__descr--radiator {
+  border-top: solid 1px #4baf4f;
+}
+.industries__descr--convector {
+  border-top: solid 1px #6739b6;
+}
+.industries__descr--tv {
+  border-top: solid 1px #04ade4;
+}
+.industries__descr--builtin {
+  border-top: solid 1px #bb3baa;
+}
+
+.industries__icon--turbine {
+  background: url('../images/generated/icons-sfe8c51d9cb.png') -127px -109px no-repeat;
+  width: 60px;
+  height: 60px;
+}
+
+.industries__icon--condition {
+  background: url('../images/generated/icons-sfe8c51d9cb.png') -64px -287px no-repeat;
+  width: 68px;
+  height: 68px;
+}
+
+.industries__icon--collector {
+  background: url('../images/generated/icons-sfe8c51d9cb.png') -132px -287px no-repeat;
+  width: 71px;
+  height: 71px;
+}
+
+.industries__icon--appliance {
+  background: url('../images/generated/icons-sfe8c51d9cb.png') -163px -169px no-repeat;
+  width: 52px;
+  height: 59px;
+}
+
+.industries__icon--radiator {
+  background: url('../images/generated/icons-sfe8c51d9cb.png') -128px -422px no-repeat;
+  width: 54px;
+  height: 63px;
+}
+
+.industries__icon--convector {
+  background: url('../images/generated/icons-sfe8c51d9cb.png') -178px -45px no-repeat;
+  width: 41px;
+  height: 64px;
+}
+
+.industries__icon--tv {
+  background: url('../images/generated/icons-sfe8c51d9cb.png') 0 -422px no-repeat;
+  width: 73px;
+  height: 55px;
+}
+
+.industries__icon--builtin {
+  background: url('../images/generated/icons-sfe8c51d9cb.png') 0 -287px no-repeat;
+  width: 64px;
+  height: 64px;
 }
 
 .navbar {
@@ -548,6 +698,10 @@ a {
   text-align: center;
 }
 .objects__title {
+  font-family: "Pobeda", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 46px;
+  color: #2e2e2e;
   margin-top: 50px;
 }
 .objects__content {

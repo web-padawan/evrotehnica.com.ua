@@ -19,6 +19,18 @@
     <?php print views_embed_view('slider', 'block'); ?>
   </header>
 
+  <div class="industries">
+    <div class="industries__container">
+      <h2 class="industries__title">Наши направления</h2>
+      <div class="industries__content">
+      <?php
+        $block = module_invoke('block', 'block_view', '1');
+        print render($block['content']);
+      ?>
+      </div>
+    </div>
+  </div>
+
   <div class="about">
     <div class="about__container">
       <h2 class="about__title">О компании</h2>
