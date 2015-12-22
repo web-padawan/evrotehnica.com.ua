@@ -299,7 +299,7 @@ a {
   display: inline-block;
 }
 .clients__item {
-  width: 19%;
+  width: 240px;
   margin-bottom: 40px;
   display: inline-block;
   vertical-align: middle;
