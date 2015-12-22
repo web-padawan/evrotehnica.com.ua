@@ -1,0 +1,70 @@
+.subscribe {
+  overflow: hidden;
+  background: #04ade4;
+  color: #fff;
+
+  &__container {
+    @extend %container;
+  }
+
+  &__left {
+    @include span(4 of 12);
+    text-align: right;
+    padding: 50px 70px 50px 0;
+  }
+
+  &__form {
+    @include span(8 of 12 last);
+    padding: 50px 0 50px 20px;
+  }
+
+  &__title {
+    margin-bottom: 30px;
+    font-family: $heliosc-cond;
+    font-weight: bold;
+    font-size: 36px;
+    color: #4f4f4f;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    font-family: $heliosc-cond;
+    font-size: 24px;
+    color: #fff;
+  }
+
+  .form-item {
+    display: inline-block;
+    margin-right: 50px;
+  }
+
+  .form-actions {
+    display: inline-block;
+  }
+
+  .form-text {
+    max-width: 295px;
+    padding: 9px 9px 9px 15px;
+    border-radius: 5px;
+    font-family: $heliosc-cond;
+    font-size: 20px;
+    @include input-placeholder {
+      color: #04ade4;
+      font-style: italic;
+    }
+  }
+
+  .form-submit {
+    width: 295px;
+    padding: 9px 0;
+    background: #fe7646;
+    color: #fff;
+    font-family: $heliosc-light;
+    font-size: 19px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    &:hover {
+      background: darken(#fe7646, 10%);
+    }
+  }
+}

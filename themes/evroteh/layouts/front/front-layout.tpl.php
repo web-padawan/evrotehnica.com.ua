@@ -101,4 +101,19 @@
     </div>
   </div>
 
+  <div class="subscribe">
+    <div class="subscribe__container">
+      <div class="subscribe__left">
+        <h2 class="subscribe__title">Хочешь стать дилером?</h2>
+        <div class="subscribe__text">Заполни форму<br>и отправь свои данные</div>
+      </div>
+      <div class="subscribe__form">
+        <?php
+          $block = module_invoke('webform', 'block_view', 'client-block-11');
+          echo render($block['content']);
+        ?>
+      </div>
+    </div>
+  </div>
+
 </div>

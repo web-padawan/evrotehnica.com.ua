@@ -269,12 +269,12 @@ a {
   font-weight: bold;
   font-style: normal;
 }
-.about__container, .clients__container, .industries__container, .navbar__container {
+.about__container, .clients__container, .industries__container, .navbar__container, .subscribe__container {
   max-width: 1260px;
   margin-left: auto;
   margin-right: auto;
 }
-.about__container:after, .clients__container:after, .industries__container:after, .navbar__container:after {
+.about__container:after, .clients__container:after, .industries__container:after, .navbar__container:after, .subscribe__container:after {
   content: " ";
   display: block;
   clear: both;
@@ -859,4 +859,87 @@ a {
   background-image: url('../images/next.png?1441542781');
   background-repeat: no-repeat;
   background-position: 50% 50%;
+}
+
+.subscribe {
+  overflow: hidden;
+  background: #04ade4;
+  color: #fff;
+}
+.subscribe__left {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 33.33333%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+  text-align: right;
+  padding: 50px 70px 50px 0;
+}
+.subscribe__form {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 66.66667%;
+  float: right;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+  padding: 50px 0 50px 20px;
+}
+.subscribe__title {
+  margin-bottom: 30px;
+  font-family: "HeliosCondC", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  color: #4f4f4f;
+  text-transform: uppercase;
+}
+.subscribe__text {
+  font-family: "HeliosCondC", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  color: #fff;
+}
+.subscribe .form-item {
+  display: inline-block;
+  margin-right: 50px;
+}
+.subscribe .form-actions {
+  display: inline-block;
+}
+.subscribe .form-text {
+  max-width: 295px;
+  padding: 9px 9px 9px 15px;
+  border-radius: 5px;
+  font-family: "HeliosCondC", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+.subscribe .form-text:-moz-placeholder {
+  color: #04ade4;
+  font-style: italic;
+}
+.subscribe .form-text::-moz-placeholder {
+  color: #04ade4;
+  font-style: italic;
+}
+.subscribe .form-text:-ms-input-placeholder {
+  color: #04ade4;
+  font-style: italic;
+}
+.subscribe .form-text::-webkit-input-placeholder {
+  color: #04ade4;
+  font-style: italic;
+}
+.subscribe .form-submit {
+  width: 295px;
+  padding: 9px 0;
+  background: #fe7646;
+  color: #fff;
+  font-family: "HeliosLightC", Helvetica, Arial, sans-serif;
+  font-size: 19px;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+.subscribe .form-submit:hover {
+  background: #fe5013;
 }
