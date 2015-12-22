@@ -116,4 +116,20 @@
     </div>
   </div>
 
+  <!--noinex-->
+  <?php if (!empty($messages)): ?>
+    <div class="jqmWindow" id="popup-messages">
+      <div class="jqmContentWrapper">
+        <div class="jqmContent clearfix">
+          <div class="popup-text"></div>
+          <?php
+            print $messages;
+          ?>
+        </div>
+        <a href="javascript:void(0);" class="jqmClose" title="Закрыть окно"></a>
+      </div>
+    </div>
+  <?php endif ?>
+  <!--/noindex-->
+
 </div>

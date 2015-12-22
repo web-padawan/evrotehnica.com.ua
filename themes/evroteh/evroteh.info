@@ -16,6 +16,7 @@ stylesheets[all][] = css/magnific-popup.css
 ; ========================================
 scripts[] = js/evroteh.behaviors.js
 scripts[] = js/lib/magnific-popup.min.js
+scripts[] = js/lib/jqModal.min.js
 scripts[] = js/evroteh.js
 
 ; ========================================
