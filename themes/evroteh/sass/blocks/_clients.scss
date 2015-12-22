@@ -1,0 +1,38 @@
+.clients {
+  padding-top: 50px;
+  background: #e0e0e0;
+  text-align: center;
+
+  &__container {
+    @extend %container;
+  }
+
+  &__title {
+    @extend %heading-gray;
+    margin-bottom: 75px;
+  }
+
+  &__list {
+    display: inline-block;
+  }
+
+  &__item {
+    width: 19%;
+    margin-bottom: 40px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  &__link {
+    display: inline-block;
+    text-decoration: none;
+  }
+}
+
+$clients: mts, vega, reikartz, atb, uz, eva, prostor, brusnichka, abk, garvis;
+
+@each $c in $clients {
+  .clients__link--#{$c} {
+    @include s(#{$c});
+  }
+}
