@@ -1,0 +1,41 @@
+.modal {
+  padding: 40px;
+  max-width: 760px;
+
+  .form-item {
+    display: inline-block;
+    margin: 20px;
+  }
+
+  .form-actions {
+    display: inline-block;
+  }
+
+  .form-text {
+    max-width: 295px;
+    padding: 9px 9px 9px 15px;
+    border-radius: 5px;
+    font-family: $heliosc-cond;
+    font-size: 20px;
+    border: solid 1px #c7c7c7;
+    @include input-placeholder {
+      color: #04ade4;
+      font-style: italic;
+    }
+  }
+
+  .form-submit {
+    width: 295px;
+    margin: 20px;
+    padding: 9px 0;
+    background: #fe7646;
+    color: #fff;
+    font-family: $heliosc-light;
+    font-size: 19px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    &:hover {
+      background: darken(#fe7646, 10%);
+    }
+  }
+}

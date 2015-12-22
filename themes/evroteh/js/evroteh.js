@@ -12,5 +12,11 @@
       $msg.jqmShow();
     };
 
+    $('#popup-subscribe').jqm({});
+    $('.navbar__subscribe').click(function(ev) {
+      ev.preventDefault();
+      $('#popup-subscribe').jqmShow();
+    });
+
   });
 })(jQuery);

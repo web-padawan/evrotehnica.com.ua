@@ -634,7 +634,6 @@ a {
 }
 .jqmWindow .jqmContentWrapper {
   background-color: #fff;
-  border: 1px solid #b9c8ce;
   padding: 10px;
   position: relative;
   left: -50%;
@@ -681,6 +680,56 @@ a {
 }
 #popup-messages .messages a:hover {
   color: #0387b2;
+}
+
+.modal {
+  padding: 40px;
+  max-width: 760px;
+}
+.modal .form-item {
+  display: inline-block;
+  margin: 20px;
+}
+.modal .form-actions {
+  display: inline-block;
+}
+.modal .form-text {
+  max-width: 295px;
+  padding: 9px 9px 9px 15px;
+  border-radius: 5px;
+  font-family: "HeliosCondC", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  border: solid 1px #c7c7c7;
+}
+.modal .form-text:-moz-placeholder {
+  color: #04ade4;
+  font-style: italic;
+}
+.modal .form-text::-moz-placeholder {
+  color: #04ade4;
+  font-style: italic;
+}
+.modal .form-text:-ms-input-placeholder {
+  color: #04ade4;
+  font-style: italic;
+}
+.modal .form-text::-webkit-input-placeholder {
+  color: #04ade4;
+  font-style: italic;
+}
+.modal .form-submit {
+  width: 295px;
+  margin: 20px;
+  padding: 9px 0;
+  background: #fe7646;
+  color: #fff;
+  font-family: "HeliosLightC", Helvetica, Arial, sans-serif;
+  font-size: 19px;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+.modal .form-submit:hover {
+  background: #fe5013;
 }
 
 .navbar {
