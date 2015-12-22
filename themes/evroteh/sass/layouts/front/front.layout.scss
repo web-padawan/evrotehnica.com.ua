@@ -5,15 +5,14 @@
 @import '../../variables/_grid.scss';
 
 .header {
-  position: relative;
-  top: 72px;
+  padding-top: 72px;
 
   &__container {
     @extend %container;
   }
 }
 
-.main {
+.objects {
   &__container {
     @extend %container;
   }

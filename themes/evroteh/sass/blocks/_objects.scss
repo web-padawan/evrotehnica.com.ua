@@ -1,12 +1,12 @@
-.block--views-objects-block {
+.objects {
   text-align: center;
 
-  .block__title {
+  &__title {
     @extend %heading-gray;
     margin-top: 50px;
   }
 
-  .block__content {
+  &__content {
     padding: 50px 0 100px;
   }
 }

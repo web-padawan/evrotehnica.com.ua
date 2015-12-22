@@ -280,7 +280,7 @@ a {
   clear: both;
 }
 
-.block--views-objects-block .block__title {
+.objects__title {
   font-family: "Pobeda", Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 46px;
@@ -355,13 +355,13 @@ a {
   text-decoration: underline;
 }
 
-.block--views-objects-block {
+.objects {
   text-align: center;
 }
-.block--views-objects-block .block__title {
+.objects__title {
   margin-top: 50px;
 }
-.block--views-objects-block .block__content {
+.objects__content {
   padding: 50px 0 100px;
 }
 
