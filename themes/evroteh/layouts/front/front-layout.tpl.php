@@ -4,11 +4,11 @@
     <div class="navbar__container">
       <h1 class="navbar__logo">Евротехника</h1>
       <ul class="navbar__nav">
-        <li class="navbar__item"><a href="#" class="navbar__link">О компании</a></li>
-        <li class="navbar__item"><a href="#" class="navbar__link">Наши направления</a></li>
-        <li class="navbar__item"><a href="#" class="navbar__link">Объекты</a></li>
-        <li class="navbar__item"><a href="#" class="navbar__link">Клиенты</a></li>
-        <li class="navbar__item"><a href="#" class="navbar__link">Контакты</a></li>
+        <li class="navbar__item"><a href="#about" class="navbar__link">О компании</a></li>
+        <li class="navbar__item"><a href="#industries" class="navbar__link">Наши направления</a></li>
+        <li class="navbar__item"><a href="#objects" class="navbar__link">Объекты</a></li>
+        <li class="navbar__item"><a href="#clients" class="navbar__link">Клиенты</a></li>
+        <li class="navbar__item"><a href="#contacts" class="navbar__link">Контакты</a></li>
       </ul>
       <a href="#" class="navbar__subscribe">Стать дилером</a>
       <a href="#" class="navbar__feedback">Обратная связь</a>
@@ -19,7 +19,7 @@
     <?php print views_embed_view('slider', 'block'); ?>
   </header>
 
-  <div class="industries">
+  <div id="industries" class="industries">
     <div class="industries__container">
       <h2 class="industries__title">Наши направления</h2>
       <div class="industries__content">
@@ -31,7 +31,7 @@
     </div>
   </div>
 
-  <div class="about">
+  <div id="about" class="about">
     <div class="about__container">
       <h2 class="about__title">О компании</h2>
       <div class="about__content">
@@ -74,7 +74,7 @@
     </div>
   </div>
 
-  <div class="clients">
+  <div id="clients" class="clients">
     <div class="clients__container">
       <h2 class="clients__title">Наши клиенты</h2>
       <ul class="clients__list">
@@ -92,7 +92,7 @@
     </div>
   </div>
 
-  <div class="objects">
+  <div id="objects" class="objects">
     <div class="objects__container">
       <h2 class="objects__title">Объекты</h2>
       <div class="objects__content">
@@ -116,7 +116,7 @@
     </div>
   </div>
 
-  <div class="contacts">
+  <div id="contacts" class="contacts">
     <div class="contacts__container">
       <h2 class="contacts__title">Контакты</h2>
       <div class="contacts__left">

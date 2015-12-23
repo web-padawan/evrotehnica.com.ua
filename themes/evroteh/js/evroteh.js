@@ -18,5 +18,15 @@
       $('#popup-subscribe').jqmShow();
     });
 
+    $('.navbar__nav').singlePageNav({
+      offset: 75,
+      filter: ':not(.external)',
+      updateHash: true,
+      beforeStart: function() {
+      },
+      onComplete: function() {
+      }
+    });
+
   });
 })(jQuery);
