@@ -44,7 +44,7 @@
         </p>
         <p class="about__text">Индивидуальный подход к каждому клиенту!</p>
       </div>
-      <h2 class="about__title">Евротехника это</h2>
+      <h2 class="about__title">Евротехника это:</h2>
       <ul class="about__list">
         <li class="about__item">
           <div class="about__icon about__icon--lamp">&nbsp;</div>
