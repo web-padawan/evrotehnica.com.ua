@@ -1,0 +1,121 @@
+.contacts {
+  padding: 60px 0 120px;
+  background: #404040;
+
+  &__container {
+    @extend %container;
+  }
+
+  &__title {
+    @include heading-white(46px);
+    margin-bottom: 75px;
+    letter-spacing: 0.02em;
+    text-align: center;
+  }
+
+  &__left {
+    @include span(5 of 16);
+  }
+
+  &__right {
+    @include span(last 11 of 16);
+  }
+
+  &__map {
+    position: relative;
+    padding-bottom: 58%;
+    height: 0;
+    overflow: hidden;
+  }
+
+  &__iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  &__card {
+    margin-bottom: 50px;
+    max-width: 310px;
+    padding-left: 15px;
+    border-left: solid 2px #04ade4;
+    color: #fff;
+    font-family: $heliosc-cond;
+    font-size: 19px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    &--last {
+      margin-bottom: 0;
+    }
+  }
+
+  &__tel {
+    font-weight: bold;
+  }
+
+  &__bottom {
+    padding-top: 40px;
+    @include span(5 of 16);
+  }
+
+  &__eshop {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #fff;
+    font-family: $heliosc-cond;
+    font-size: 19px;
+    text-decoration: none;
+    border-bottom: solid 1px #fff;
+    letter-spacing: 0.03em;
+
+    > b {
+      position: relative;
+      top: -1px;
+      color: #04ade4;
+      border-bottom: solid 1px #04ade4;
+    }
+    &:hover {
+      color: #04ade4;
+      border-bottom: solid 1px #04ade4;
+    }
+  }
+
+  &__social {
+    padding-top: 43px;
+    @include span(last 11 of 16);
+  }
+
+  &__sochead {
+    display: inline-block;
+    margin-right: 10px;
+    padding-left: 10px;
+    vertical-align: top;
+    border-left: solid 15px #04ade4;
+    font-family: $heliosc-cond;
+    font-size: 19px;
+    color: #fff;
+    line-height: 2;
+    letter-spacing: 0.02em;
+  }
+
+  &__link {
+    display: inline-block;
+    margin: 0 18px;
+    text-decoration: none;
+    &:hover {
+      opacity: 0.9;
+    }
+    &--facebook {
+      @include s(facebook);
+    }
+    &--vkontakte {
+      @include s(vkontakte);
+    }
+    &--google {
+      @include s(google);
+    }
+  }
+}

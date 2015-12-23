@@ -1,5 +1,5 @@
 .industries {
-  padding: 50px 0 40px 0;
+  padding: 50px 0 60px 0;
   text-align: center;
 
   &__container {
@@ -8,7 +8,7 @@
 
   &__title {
     @include heading-gray(46px);
-    margin-bottom: 55px;
+    margin-bottom: 32px;
     letter-spacing: 0.02em;
   }
 
@@ -19,9 +19,18 @@
 
   &__item {
     width: 310px;
-    margin: 0 0 50px;
+    margin: 0 0 12px;
     display: inline-block;
     vertical-align: top;
+  }
+
+  &__link {
+    display: block;
+    padding: 20px 0;
+    text-decoration: none;
+    &:hover {
+      background: #edecec;
+    }
   }
 
   &__disc {

@@ -116,6 +116,48 @@
     </div>
   </div>
 
+  <div class="contacts">
+    <div class="contacts__container">
+      <h2 class="contacts__title">Контакты</h2>
+      <div class="contacts__left">
+        <div class="contacts__card">
+          <div class="contacts__adr">Украина, г. Днепропетровск, ул.&nbsp;Володи&nbsp;Дубинина, 14</div>
+          <div class="contacts__tel">(0562) 34-16-43, (0562) 31-85-97</div>
+        </div>
+        <div class="contacts__card">
+          <div class="contacts__adr">Отдел продаж климатического и&nbsp;отопительного оборудования</div>
+          <div class="contacts__tel">(050) 420-11-41, (050) 931-15-15</div>
+        </div>
+        <div class="contacts__card">
+          <div class="contacts__adr">Отдел продаж бытовой и&nbsp;встраиваемой&nbsp;техники</div>
+          <div class="contacts__tel">(050) 420-13-14, (050) 420-13-12</div>
+        </div>
+        <div class="contacts__card">
+          <div class="contacts__adr">Розничные продажи</div>
+          <div class="contacts__tel">(056) 745-24-90, (050) 488-27-03</div>
+        </div>
+        <div class="contacts__card contacts__card--last">
+          <div class="contacts__adr">Сервисное обслуживание</div>
+          <div class="contacts__tel">(0562) 36-87-62,63 (050) 487-54-90</div>
+        </div>
+      </div>
+      <div class="contacts__right">
+        <div class="contacts__map">
+          <iframe class="contacts__iframe" frameborder="0" scrolling="no" width="894" height="490" src="https://maps.google.com/maps?hl=ua&q=днепропетровск ул. володи дубинина, 14&z=16&output=embed">></iframe>
+        </div>
+      </div>
+      <div class="contacts__bottom">
+        <a class="contacts__eshop" href="http://condition.com.ua" target="_blank">Интернет-магазин <b>condition.com.ua</b></a>
+      </div>
+      <div class="contacts__social">
+        <h3 class="contacts__sochead">Мы в соц. сетях:</h3>
+        <a class="contacts__link contacts__link--facebook" href="https://www.facebook.com/Евротехника-интернет-магазин-бытовой-техники-1494970517441419/" title="Facebook">&nbsp;</a>
+        <a class="contacts__link contacts__link--vkontakte" href="http://vk.com/club70521286" title="Вконтакте">&nbsp;</a>
+        <a class="contacts__link contacts__link--google"href="https://plus.google.com/+ConditionUa/about" title="Google+">&nbsp;</a>
+      </div>
+    </div>
+  </div>
+
   <!--noinex-->
   <div class="jqmWindow" id="popup-subscribe">
     <div class="jqmContentWrapper">
