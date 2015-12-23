@@ -12,13 +12,13 @@
   &__logo {
     @include replace-text('logo.png');
     float: left;
-    margin: 24px 30px 24px 0;
+    margin: 24px 50px 24px 0;
     width: 146px;
     height: 25px;
   }
 
   &__nav {
-    @include span(7 of 12 nest);
+    @include span(9 of 16 nest);
     list-style-type: none;
   }
 
@@ -27,6 +27,9 @@
     margin: 0 25px;
     padding: 28px 0;
     text-align: center;
+    &:last-child {
+      margin-right: 0;
+    }
   }
 
   &__link {
@@ -41,8 +44,8 @@
 
   &__feedback {
     float: right;
-    margin-right: 35px;
-    padding: 28px 0;
+    margin-right: 48px;
+    padding: 30px 0 28px 0;
     color: #04ade4;
     font-family: $heliosc;
     font-weight: bold;

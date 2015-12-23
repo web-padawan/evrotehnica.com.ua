@@ -1,4 +1,5 @@
 .about {
+  padding-bottom: 60px;
   background: #04ade4;
   color: #fff;
   text-align: center;
@@ -9,32 +10,31 @@
 
   &__title {
     @include heading-white(46px);
-    padding: 50px 0;
+    padding: 52px 0 36px;
+    letter-spacing: 0.02em;
   }
 
   &__content {
     max-width: 90%;
-    margin: 0 auto;
+    margin: 0 auto 8px;
   }
 
   &__text {
     font-family: $heliosc;
     font-size: 20px;
-    line-height: 1.25;
+    line-height: 1.5;
   }
 
   &__list {
-    max-width: 80%;
-    margin: 0 auto;
+    margin-top: 8px;
     list-style-type: none;
-    text-align: left;
   }
 
   &__item {
     max-width: 320px;
-    margin: 0 10px 40px;
+    margin: 0 25px 40px;
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
   }
 
   &__icon {

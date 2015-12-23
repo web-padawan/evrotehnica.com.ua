@@ -1,13 +1,14 @@
 .objects {
   text-align: center;
+  padding: 56px 0 155px;
 
   &__title {
     @include heading-gray(46px);
-    margin-top: 50px;
+    letter-spacing: 0.02em;
   }
 
   &__content {
-    padding: 50px 0 100px;
+    padding-top: 65px;
   }
 }
 
@@ -15,7 +16,6 @@
 
   .views-row {
     display: inline-block;
-    max-width: 32.5%;
     position: relative;
     margin: 5px 0 5px 0.5%;
   }

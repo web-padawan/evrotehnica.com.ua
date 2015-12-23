@@ -8,23 +8,28 @@
   }
 
   &__left {
-    @include span(4 of 12);
+    width: 33.33333%;
+    float: left;
     text-align: right;
-    padding: 50px 70px 50px 0;
+    padding: 35px 35px 0 0;
   }
 
   &__form {
-    @include span(8 of 12 last);
-    padding: 50px 0 50px 20px;
+    width: 66.66667%;
+    float: right;
+    padding: 40px 0 50px 90px;
   }
 
   &__title {
-    margin-bottom: 30px;
+    max-width: 300px;
+    margin-bottom: 18px;
+    margin-left: auto;
     font-family: $heliosc-cond;
     font-weight: bold;
     font-size: 36px;
     color: #4f4f4f;
     text-transform: uppercase;
+    letter-spacing: 0.02em;
   }
 
   &__text {
@@ -44,7 +49,8 @@
 
   .form-text {
     max-width: 295px;
-    padding: 9px 9px 9px 15px;
+    margin-bottom: 8px;
+    padding: 10px 10px 10px 15px;
     border-radius: 5px;
     font-family: $heliosc-cond;
     font-size: 20px;
