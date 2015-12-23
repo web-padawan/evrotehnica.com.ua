@@ -18,6 +18,12 @@
       $('#popup-subscribe').jqmShow();
     });
 
+    $('#popup-feedback').jqm({});
+    $('.navbar__feedback').click(function(ev) {
+      ev.preventDefault();
+      $('#popup-feedback').jqmShow();
+    });
+
     $('.navbar__nav').singlePageNav({
       offset: 75,
       filter: ':not(.external)',

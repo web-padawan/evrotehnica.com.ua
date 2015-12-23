@@ -866,6 +866,30 @@ a {
   color: #04ade4;
   font-style: italic;
 }
+.modal .form-textarea {
+  max-width: 295px;
+  padding: 9px 9px 9px 15px;
+  border-radius: 5px;
+  font-family: "HeliosCondC", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  border: solid 1px #c7c7c7;
+}
+.modal .form-textarea:-moz-placeholder {
+  color: #04ade4;
+  font-style: italic;
+}
+.modal .form-textarea::-moz-placeholder {
+  color: #04ade4;
+  font-style: italic;
+}
+.modal .form-textarea:-ms-input-placeholder {
+  color: #04ade4;
+  font-style: italic;
+}
+.modal .form-textarea::-webkit-input-placeholder {
+  color: #04ade4;
+  font-style: italic;
+}
 .modal .form-submit {
   width: 295px;
   margin: 20px;
@@ -879,6 +903,16 @@ a {
 }
 .modal .form-submit:hover {
   background: #fe5013;
+}
+
+.webform-client-form-12 .webform-component--message {
+  float: right;
+}
+.webform-client-form-12 .webform-component--email {
+  float: left;
+}
+.webform-client-form-12 .form-actions {
+  float: right;
 }
 
 .navbar {

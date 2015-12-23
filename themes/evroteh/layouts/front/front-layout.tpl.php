@@ -173,6 +173,20 @@
     </div>
   </div>
 
+  <div class="jqmWindow" id="popup-feedback">
+    <div class="jqmContentWrapper">
+      <div class="jqmContent clearfix">
+        <div class="modal">
+          <?php
+            $block = module_invoke('webform', 'block_view', 'client-block-12');
+            echo render($block['content']);
+          ?>
+        </div>
+      </div>
+      <a href="javascript:void(0);" class="jqmClose" title="Закрыть окно"></a>
+    </div>
+  </div>
+
   <?php if (!empty($messages)): ?>
     <div class="jqmWindow" id="popup-messages">
       <div class="jqmContentWrapper">

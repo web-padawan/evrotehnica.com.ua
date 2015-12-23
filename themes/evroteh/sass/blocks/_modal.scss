@@ -24,6 +24,19 @@
     }
   }
 
+  .form-textarea {
+    max-width: 295px;
+    padding: 9px 9px 9px 15px;
+    border-radius: 5px;
+    font-family: $heliosc-cond;
+    font-size: 20px;
+    border: solid 1px #c7c7c7;
+    @include input-placeholder {
+      color: #04ade4;
+      font-style: italic;
+    }
+  }
+
   .form-submit {
     width: 295px;
     margin: 20px;
@@ -37,5 +50,20 @@
     &:hover {
       background: darken(#fe7646, 10%);
     }
+  }
+}
+
+.webform-client-form-12 {
+
+  .webform-component--message {
+    float: right;
+  }
+
+  .webform-component--email {
+    float: left;
+  }
+
+  .form-actions {
+    float: right;
   }
 }
