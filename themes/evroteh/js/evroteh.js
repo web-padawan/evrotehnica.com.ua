@@ -25,7 +25,7 @@
     });
 
     $('.navbar__nav').singlePageNav({
-      offset: 75,
+      offset: 72,
       filter: ':not(.external)',
       updateHash: true,
       beforeStart: function() {
