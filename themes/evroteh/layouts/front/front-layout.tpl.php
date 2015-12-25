@@ -78,16 +78,16 @@
     <div class="clients__container">
       <h2 class="clients__title">Наши клиенты</h2>
       <ul class="clients__list">
-        <li class="clients__item"><a class="clients__link clients__link--mts" href="#">&nbsp;</a></li>
-        <li class="clients__item"><a class="clients__link clients__link--vega" href="#">&nbsp;</a></li>
-        <li class="clients__item"><a class="clients__link clients__link--reikartz" href="#">&nbsp;</a></li>
-        <li class="clients__item"><a class="clients__link clients__link--atb" href="#">&nbsp;</a></li>
-        <li class="clients__item"><a class="clients__link clients__link--uz" href="#">&nbsp;</a></li>
-        <li class="clients__item"><a class="clients__link clients__link--eva" href="#">&nbsp;</a></li>
-        <li class="clients__item"><a class="clients__link clients__link--prostor" href="#">&nbsp;</a></li>
-        <li class="clients__item"><a class="clients__link clients__link--brusnichka" href="#">&nbsp;</a></li>
-        <li class="clients__item"><a class="clients__link clients__link--abk" href="#">&nbsp;</a></li>
-        <li class="clients__item"><a class="clients__link clients__link--garvis" href="#">&nbsp;</a></li>
+        <li class="clients__item"><span class="clients__link clients__link--mts">&nbsp;</span></li>
+        <li class="clients__item"><span class="clients__link clients__link--vega">&nbsp;</span></li>
+        <li class="clients__item"><span class="clients__link clients__link--reikartz">&nbsp;</span></li>
+        <li class="clients__item"><span class="clients__link clients__link--atb">&nbsp;</span></li>
+        <li class="clients__item"><span class="clients__link clients__link--uz">&nbsp;</span></li>
+        <li class="clients__item"><span class="clients__link clients__link--eva">&nbsp;</span></li>
+        <li class="clients__item"><span class="clients__link clients__link--prostor">&nbsp;</span></li>
+        <li class="clients__item"><span class="clients__link clients__link--brusnichka">&nbsp;</span></li>
+        <li class="clients__item"><span class="clients__link clients__link--abk">&nbsp;</span></li>
+        <li class="clients__item"><span class="clients__link clients__link--garvis">&nbsp;</span></li>
       </ul>
     </div>
   </div>
