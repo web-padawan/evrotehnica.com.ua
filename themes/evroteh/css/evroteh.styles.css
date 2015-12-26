@@ -223,49 +223,49 @@ a {
 
 @font-face {
   font-family: "HeliosC";
-  src: url('../fonts/HeliosC.eot?1450638736');
-  src: url('../fonts/HeliosC.eot?&1450638736#iefix') format('embedded-opentype'), url('../fonts/HeliosC.woff?1450638736') format('woff'), url('../fonts/HeliosC.ttf?1450638736') format('truetype');
+  src: url('../fonts/HeliosC.eot');
+  src: url('../fonts/HeliosC.eot?#iefix') format('embedded-opentype'), url('../fonts/HeliosC.woff') format('woff'), url('../fonts/HeliosC.ttf') format('truetype');
 }
 @font-face {
   font-family: "HeliosC";
-  src: url('../fonts/HeliosC-Bold.eot?1450638734');
-  src: url('../fonts/HeliosC-Bold.eot?&1450638734#iefix') format('embedded-opentype'), url('../fonts/HeliosC-Bold.woff?1450638734') format('woff'), url('../fonts/HeliosC-Bold.ttf?1450638734') format('truetype');
+  src: url('../fonts/HeliosC-Bold.eot');
+  src: url('../fonts/HeliosC-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/HeliosC-Bold.woff') format('woff'), url('../fonts/HeliosC-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: "HeliosC";
-  src: url('../fonts/HeliosC-Italic.eot?1450638734');
-  src: url('../fonts/HeliosC-Italic.eot?&1450638734#iefix') format('embedded-opentype'), url('../fonts/HeliosC-Italic.woff?1450638734') format('woff'), url('../fonts/HeliosC-Italic.ttf?1450638734') format('truetype');
+  src: url('../fonts/HeliosC-Italic.eot');
+  src: url('../fonts/HeliosC-Italic.eot?#iefix') format('embedded-opentype'), url('../fonts/HeliosC-Italic.woff') format('woff'), url('../fonts/HeliosC-Italic.ttf') format('truetype');
   font-weight: normal;
   font-style: italic;
 }
 @font-face {
   font-family: "HeliosCondC";
-  src: url('../fonts/HeliosCondC.eot?1450638736');
-  src: url('../fonts/HeliosCondC.eot?&1450638736#iefix') format('embedded-opentype'), url('../fonts/HeliosCondC.woff?1450638736') format('woff'), url('../fonts/HeliosCondC.ttf?1450638736') format('truetype');
+  src: url('../fonts/HeliosCondC.eot');
+  src: url('../fonts/HeliosCondC.eot?#iefix') format('embedded-opentype'), url('../fonts/HeliosCondC.woff') format('woff'), url('../fonts/HeliosCondC.ttf') format('truetype');
 }
 @font-face {
   font-family: "HeliosCondC";
-  src: url('../fonts/HeliosCondC-Bold.eot?1450638734');
-  src: url('../fonts/HeliosCondC-Bold.eot?&1450638734#iefix') format('embedded-opentype'), url('../fonts/HeliosCondC-Bold.woff?1450638734') format('woff'), url('../fonts/HeliosCondC-Bold.ttf?1450638734') format('truetype');
+  src: url('../fonts/HeliosCondC-Bold.eot');
+  src: url('../fonts/HeliosCondC-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/HeliosCondC-Bold.woff') format('woff'), url('../fonts/HeliosCondC-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: "HeliosLightC";
-  src: url('../fonts/HeliosLightC.eot?1450638734');
-  src: url('../fonts/HeliosLightC.eot?&1450638734#iefix') format('embedded-opentype'), url('../fonts/HeliosLightC.woff?1450638734') format('woff'), url('../fonts/HeliosLightC.ttf?1450638734') format('truetype');
+  src: url('../fonts/HeliosLightC.eot');
+  src: url('../fonts/HeliosLightC.eot?#iefix') format('embedded-opentype'), url('../fonts/HeliosLightC.woff') format('woff'), url('../fonts/HeliosLightC.ttf') format('truetype');
 }
 @font-face {
   font-family: "Pobeda";
-  src: url('../fonts/Pobeda-Regular.eot?1450638734');
-  src: url('../fonts/Pobeda-Regular.eot?&1450638734#iefix') format('embedded-opentype'), url('../fonts/Pobeda-Regular.woff?1450638734') format('woff'), url('../fonts/Pobeda-Regular.ttf?1450638734') format('truetype');
+  src: url('../fonts/Pobeda-Regular.eot');
+  src: url('../fonts/Pobeda-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Pobeda-Regular.woff') format('woff'), url('../fonts/Pobeda-Regular.ttf') format('truetype');
 }
 @font-face {
   font-family: "Pobeda";
-  src: url('../fonts/Pobeda-Bold.eot?1450638734');
-  src: url('../fonts/Pobeda-Bold.eot?&1450638734#iefix') format('embedded-opentype'), url('../fonts/Pobeda-Bold.woff?1450638734') format('woff'), url('../fonts/Pobeda-Bold.ttf?1450638734') format('truetype');
+  src: url('../fonts/Pobeda-Bold.eot');
+  src: url('../fonts/Pobeda-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Pobeda-Bold.woff') format('woff'), url('../fonts/Pobeda-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
@@ -928,7 +928,7 @@ a {
   overflow: hidden;
   text-align: left;
   text-transform: capitalize;
-  background-image: url('../images/logo.png?1450706146');
+  background-image: url('../images/logo.png');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   float: left;
@@ -1081,7 +1081,7 @@ a {
   clear: both;
 }
 .slider__logo {
-  background: url('../images/logo-white.png?1450897793') no-repeat;
+  background: url('../images/logo-white.png') no-repeat;
   width: 351px;
   height: 61px;
   position: absolute;
@@ -1171,7 +1171,7 @@ a {
   overflow: hidden;
   text-align: left;
   text-transform: capitalize;
-  background-image: url('../images/prev.png?1441543001');
+  background-image: url('../images/prev.png');
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
@@ -1186,7 +1186,7 @@ a {
   overflow: hidden;
   text-align: left;
   text-transform: capitalize;
-  background-image: url('../images/next.png?1441542781');
+  background-image: url('../images/next.png');
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
