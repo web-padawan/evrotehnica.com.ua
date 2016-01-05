@@ -60,7 +60,13 @@
 .webform-client-form-12 {
 
   .webform-component--message {
-    float: right;
+    position: absolute;
+    top: 280px;
+
+    @include breakpoint ($xlg) {
+      float: right;
+      position: static;
+    }
   }
 
   .webform-component--email {
@@ -68,6 +74,11 @@
   }
 
   .form-actions {
-    float: right;
+    margin-top: 150px;
+
+    @include breakpoint ($xlg) {
+      float: right;
+      margin: 0;
+    }
   }
 }

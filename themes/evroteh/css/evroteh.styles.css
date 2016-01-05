@@ -927,13 +927,26 @@ a {
 }
 
 .webform-client-form-12 .webform-component--message {
-  float: right;
+  position: absolute;
+  top: 280px;
+}
+@media (min-width: 1600px) {
+  .webform-client-form-12 .webform-component--message {
+    float: right;
+    position: static;
+  }
 }
 .webform-client-form-12 .webform-component--email {
   float: left;
 }
 .webform-client-form-12 .form-actions {
-  float: right;
+  margin-top: 150px;
+}
+@media (min-width: 1600px) {
+  .webform-client-form-12 .form-actions {
+    float: right;
+    margin: 0;
+  }
 }
 
 .navbar {
