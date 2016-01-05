@@ -1,6 +1,10 @@
 .modal {
   padding: 40px;
-  max-width: 760px;
+  max-width: 415px;
+
+  @include breakpoint ($xlg) {
+    max-width: 760px;
+  }
 
   .form-item {
     display: inline-block;

@@ -19,10 +19,15 @@
   }
 
   &__item {
-    width: 310px;
+    width: 45%;
     margin: 0 0 12px;
     display: inline-block;
     vertical-align: top;
+
+    @include breakpoint($sm) {
+      width: 310px;
+    }
+
     &:hover {
       background: #dedede;
     }
@@ -97,6 +102,10 @@
     font-size: 18px;
     line-height: 1.1;
     color: #656565;
+
+    @include breakpoint(max-width $sm - 1) {
+      display: none;
+    }
 
     &--turbine {
       border-top: solid 2px #f44236;

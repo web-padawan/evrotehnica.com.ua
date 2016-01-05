@@ -3,15 +3,17 @@
   <nav class="navbar">
     <div class="navbar__container">
       <h1 class="navbar__logo">Евротехника</h1>
+      <label for="toggle" class="navbar__toggle">&nbsp;</label>
+      <input id="toggle" type="checkbox" class="navbar__trigger" />
       <ul class="navbar__nav">
-        <li class="navbar__item"><a href="#about" class="navbar__link">О компании</a></li>
-        <li class="navbar__item"><a href="#industries" class="navbar__link">Наши направления</a></li>
-        <li class="navbar__item"><a href="#objects" class="navbar__link">Объекты</a></li>
-        <li class="navbar__item"><a href="#clients" class="navbar__link">Клиенты</a></li>
-        <li class="navbar__item"><a href="#contacts" class="navbar__link">Контакты</a></li>
+        <li class="navbar__item navbar__item--1"><a href="#about" class="navbar__link">О компании</a></li>
+        <li class="navbar__item navbar__item--2"><a href="#industries" class="navbar__link">Наши направления</a></li>
+        <li class="navbar__item navbar__item--3"><a href="#objects" class="navbar__link">Объекты</a></li>
+        <li class="navbar__item navbar__item--4"><a href="#clients" class="navbar__link">Клиенты</a></li>
+        <li class="navbar__item navbar__item--5"><a href="#contacts" class="navbar__link">Контакты</a></li>
       </ul>
-      <a href="#" class="navbar__subscribe">Стать дилером</a>
       <a href="#" class="navbar__feedback">Обратная связь</a>
+      <a href="#" class="navbar__subscribe">Стать дилером</a>
     </div>
   </nav>
 

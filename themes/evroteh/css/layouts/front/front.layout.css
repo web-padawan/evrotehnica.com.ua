@@ -9,6 +9,8 @@
   clear: both;
 }
 
-.header {
-  padding-top: 72px;
+@media (min-width: 1200px) {
+  .header {
+    padding-top: 72px;
+  }
 }

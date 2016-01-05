@@ -35,6 +35,17 @@
     width: 351px;
     height: 61px;
     position: absolute;
+
+    // small screen
+    @include breakpoint(max-width $lg - 1) {
+      top: 20px!important;
+      right: 40px!important;
+      left: auto!important;
+      bottom: auto!important;
+      width: 250px;
+      background-size: contain;
+    }
+
     .views-row-1 & {
       right: 60px;
       bottom: 60px;
@@ -55,6 +66,13 @@
     font-weight: bold;
     border-left: solid 2px #fff;
     line-height: 0.9;
+
+    // small screen
+    @include breakpoint(max-width $lg - 1) {
+      top: 55%!important;
+      left: 10%!important;
+      bottom: auto!important;
+    }
 
     .views-row-1 & {
       top: 41%;
@@ -104,9 +122,17 @@
 // controls
 .views-slideshow-controls-bottom {
   position: absolute;
-  top: 45%;
-  right: 0;
-  left: 0;
+
+  // small screen - single
+  bottom: 100px;
+  left: 60%;
+
+  // large screen - double
+  @include breakpoint($lg) {
+    top: 45%;
+    right: 0;
+    left: 0;
+  }
   z-index: 200;
 }
 
@@ -119,13 +145,21 @@
   display: block;
   width: 76px;
   height: 76px;
+  &:hover {
+    opacity: 0.9;
+  }
 }
 
 // previous button
 .views-slideshow-controls-text-previous {
-  position: absolute;
-  top: 0;
-  left: 20px;
+  display: none;
+
+  @include breakpoint($lg) {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 20px;
+  }
 
   a {
     @include replace-text('prev.png');
@@ -140,8 +174,14 @@
   right: 20px;
 
   a {
-    @include replace-text('next.png');
+    @include replace-text('down.png');
     @extend %slider-control;
+    opacity: 0.6;
+
+    @include breakpoint($lg) {
+      @include replace-text('next.png');
+      opacity: 1;
+    }
   }
 }
 

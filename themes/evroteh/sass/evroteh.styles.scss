@@ -6,3 +6,7 @@
 @import "variables/**/*";
 @import "abstractions/**/*";
 @import "blocks/**/*";
+
+body {
+  min-width: 480px;
+}

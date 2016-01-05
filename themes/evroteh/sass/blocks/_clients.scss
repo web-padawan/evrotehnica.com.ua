@@ -22,6 +22,10 @@
     margin: 15px 0 50px;
     display: inline-block;
     vertical-align: middle;
+
+    @include breakpoint($xs $sm) {
+      width: 32%;
+    }
   }
 
   &__link {
