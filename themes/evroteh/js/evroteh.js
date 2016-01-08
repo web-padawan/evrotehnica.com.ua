@@ -18,6 +18,11 @@
       $('#popup-subscribe').jqmShow();
     });
 
+    $('.subscribe__toggle').click(function(ev) {
+      ev.preventDefault();
+      $('#popup-subscribe').jqmShow();
+    });
+
     $('#popup-feedback').jqm({});
     $('.navbar__feedback').click(function(ev) {
       ev.preventDefault();
