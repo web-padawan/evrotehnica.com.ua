@@ -31,6 +31,11 @@
   }
 
   &__item {
+    @include breakpoint($xs $sm - 1) {
+      max-width: 315px;
+      margin-right: 0;
+      margin-left: 0;
+    }
     max-width: 320px;
     margin: 0 25px 40px;
     display: inline-block;
@@ -39,12 +44,18 @@
 
   &__icon {
     display: inline-block;
-    vertical-align: top;
 
     &--service {
       position: relative;
       top: 10px;
     }
+  }
+
+  &__img {
+    width: 72px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
   }
 
   &__descr {
@@ -57,17 +68,16 @@
     @include heading-white(30px);
     text-align: left;
 
-    &--shield {
-      position: relative;
-      left: 10px;
+    @include breakpoint($xs $sm - 1) {
+      max-width: 221px;
+      margin-left: 12px;
+      font-size: 25px;
     }
-    &--lorry {
-      position: relative;
-      left: 15px;
-    }
+
     &--man {
       font-size: 26px;
     }
+
     &--service {
       font-size: 36px;
     }

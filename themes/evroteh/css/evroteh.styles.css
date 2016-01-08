@@ -313,13 +313,25 @@ a {
   display: inline-block;
   vertical-align: top;
 }
+@media (min-width: 640px) and (max-width: 767px) {
+  .about__item {
+    max-width: 315px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
 .about__icon {
   display: inline-block;
-  vertical-align: top;
 }
 .about__icon--service {
   position: relative;
   top: 10px;
+}
+.about__img {
+  width: 72px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
 }
 .about__descr {
   display: inline-block;
@@ -334,13 +346,12 @@ a {
   color: #fff;
   text-align: left;
 }
-.about__descr--shield {
-  position: relative;
-  left: 10px;
-}
-.about__descr--lorry {
-  position: relative;
-  left: 15px;
+@media (min-width: 640px) and (max-width: 767px) {
+  .about__descr {
+    max-width: 221px;
+    margin-left: 12px;
+    font-size: 25px;
+  }
 }
 .about__descr--man {
   font-size: 26px;

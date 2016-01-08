@@ -49,27 +49,39 @@
       <h2 class="about__title">Евротехника это:</h2>
       <ul class="about__list">
         <li class="about__item">
-          <div class="about__icon about__icon--lamp">&nbsp;</div>
+          <div class="about__img">
+            <div class="about__icon about__icon--lamp">&nbsp;</div>
+          </div>
           <div class="about__descr about__descr--lamp">Инновационное оборудование</div>
         </li>
         <li class="about__item">
-          <div class="about__icon about__icon--shield">&nbsp;</div>
+          <div class="about__img">
+            <div class="about__icon about__icon--shield">&nbsp;</div>
+          </div>
           <div class="about__descr about__descr--shield">Гарантия от производителя</div>
         </li>
         <li class="about__item">
-          <div class="about__icon about__icon--lorry">&nbsp;</div>
+          <div class="about__img">
+            <div class="about__icon about__icon--lorry">&nbsp;</div>
+          </div>
           <div class="about__descr about__descr--lorry">Поставка в любую точку Украины</div>
         </li>
         <li class="about__item">
-          <div class="about__icon about__icon--man">&nbsp;</div>
+          <div class="about__img">
+            <div class="about__icon about__icon--man">&nbsp;</div>
+          </div>
           <div class="about__descr about__descr--man">Большой опыт<br>работы на технически сложных объектах</div>
         </li>
         <li class="about__item">
-          <div class="about__icon about__icon--service">&nbsp;</div>
+          <div class="about__img">
+            <div class="about__icon about__icon--service">&nbsp;</div>
+          </div>
           <div class="about__descr about__descr--service">Сервисный центр</div>
         </li>
         <li class="about__item">
-          <div class="about__icon about__icon--master">&nbsp;</div>
+          <div class="about__img">
+            <div class="about__icon about__icon--master">&nbsp;</div>
+          </div>
           <div class="about__descr about__descr--master">Опыт. Надежность. Качество</div>
         </li>
       </ul>
