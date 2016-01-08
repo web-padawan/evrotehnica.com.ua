@@ -12,12 +12,41 @@
     float: left;
     text-align: right;
     padding: 35px 35px 0 0;
+
+    @include breakpoint(max-width $lg - 1) {
+      float: none;
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  &__toggle {
+    display: none;
+
+    @include breakpoint(max-width $lg - 1) {
+      display: inline-block;
+      margin-bottom: 50px;
+      padding: 15px 20px;
+      background: #fe7646;
+      color: #fff;
+      font-family: $heliosc-light;
+      font-size: 21px;
+      text-transform: uppercase;
+      text-decoration: none;
+      border-radius: 5px;
+      &:hover {
+        background: darken(#fe7646, 10%);
+      }
+    }
   }
 
   &__form {
     width: 66.66667%;
     float: right;
     padding: 40px 0 36px 90px;
+    @include breakpoint(max-width $lg - 1) {
+      display: none;
+    }
   }
 
   &__title {
@@ -30,12 +59,19 @@
     color: #4f4f4f;
     text-transform: uppercase;
     letter-spacing: 0.02em;
+
+    @include breakpoint(max-width $lg - 1) {
+      margin-right: auto;
+    }
   }
 
   &__text {
     font-family: $heliosc-cond;
     font-size: 24px;
     color: #fff;
+    @include breakpoint(max-width $lg - 1) {
+      display: none;
+    }
   }
 
   .form-item {

@@ -38,8 +38,8 @@
 
     // small screen
     @include breakpoint(max-width $lg - 1) {
-      top: 20px!important;
-      right: 40px!important;
+      top: 15px!important;
+      right: 20px!important;
       left: auto!important;
       bottom: auto!important;
       width: 250px;
@@ -69,7 +69,7 @@
 
     // small screen
     @include breakpoint(max-width $lg - 1) {
-      top: 55%!important;
+      top: 35%!important;
       left: 10%!important;
       bottom: auto!important;
     }
