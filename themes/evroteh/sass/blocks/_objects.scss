@@ -18,6 +18,10 @@
     display: inline-block;
     position: relative;
     margin: 5px 0 5px 0.5%;
+
+    @include breakpoint($xs 850px) {
+      width: 305px;
+    }
   }
 
   .views-field-body {
@@ -32,6 +36,12 @@
     font-family: $heliosc-cond;
     letter-spacing: 0.01em;
     line-height: 1.25;
+
+    @include breakpoint($xs 850px) {
+      max-width: 100%;
+      border: none!important;
+      text-align: center;
+    }
   }
 
   .views-row-1 {

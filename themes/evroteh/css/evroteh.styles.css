@@ -1148,6 +1148,11 @@ a {
   position: relative;
   margin: 5px 0 5px 0.5%;
 }
+@media (min-width: 640px) and (max-width: 850px) {
+  .view-objects .views-row {
+    width: 305px;
+  }
+}
 .view-objects .views-field-body {
   position: absolute;
   bottom: 0;
@@ -1160,6 +1165,13 @@ a {
   font-family: "HeliosCondC", Helvetica, Arial, sans-serif;
   letter-spacing: 0.01em;
   line-height: 1.25;
+}
+@media (min-width: 640px) and (max-width: 850px) {
+  .view-objects .views-field-body {
+    max-width: 100%;
+    border: none !important;
+    text-align: center;
+  }
 }
 .view-objects .views-row-1 .views-field-body {
   border-right: solid 32px #4baf4f;
