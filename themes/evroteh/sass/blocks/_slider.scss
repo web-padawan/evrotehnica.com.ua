@@ -37,12 +37,21 @@
     position: absolute;
 
     // small screen
-    @include breakpoint(max-width $lg - 1) {
+    @include breakpoint($xs $lg - 1) {
       top: 15px!important;
       right: 20px!important;
       left: auto!important;
       bottom: auto!important;
       width: 250px;
+      background-size: contain;
+    }
+
+    @include breakpoint(max-width $xs) {
+      top: 15px!important;
+      right: 20px!important;
+      left: auto!important;
+      bottom: auto!important;
+      width: 200px;
       background-size: contain;
     }
 
@@ -97,15 +106,26 @@
       .views-row-1 & {
         color: #fff;
       }
+      @include breakpoint(max-width $mb) {
+        font-size: 64px;
+      }
     }
     &--2 {
       font-size: 60px;
       color: #02b2ec;
       letter-spacing: -0.005em;
+
+      @include breakpoint(max-width $mb) {
+        font-size: 50px;
+      }
     }
     &--3 {
       font-size: 43px;
       color: #fff;
+
+      @include breakpoint(max-width $mb) {
+        font-size: 30px;
+      }
     }
   }
 }

@@ -12,6 +12,10 @@
     @include heading-white(46px);
     padding: 52px 0 36px;
     letter-spacing: 0.02em;
+
+    @include breakpoint(max-width $mb) {
+      font-size: 36px;
+    }
   }
 
   &__content {
@@ -23,6 +27,10 @@
     font-family: $heliosc;
     font-size: 20px;
     line-height: 1.5;
+
+    @include breakpoint(max-width $mb) {
+      font-size: 16px;
+    }
   }
 
   &__list {
@@ -31,15 +39,21 @@
   }
 
   &__item {
+    margin: 0 0 40px;
+    max-width: 320px;
+    display: inline-block;
+    vertical-align: top;
+
     @include breakpoint($xs $sm - 1) {
       max-width: 315px;
       margin-right: 0;
       margin-left: 0;
     }
-    max-width: 320px;
-    margin: 0 25px 40px;
-    display: inline-block;
-    vertical-align: top;
+
+    @include breakpoint($sm) {
+      max-width: 320px;
+      margin: 0 25px 40px;
+    }
   }
 
   &__icon {
@@ -67,6 +81,10 @@
     border-left: solid 2px #4f4f4f;
     @include heading-white(30px);
     text-align: left;
+
+    @include breakpoint(max-width $mb) {
+      font-size: 24px;
+    }
 
     @include breakpoint($xs $sm - 1) {
       max-width: 221px;

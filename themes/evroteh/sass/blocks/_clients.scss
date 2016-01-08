@@ -11,6 +11,10 @@
     @include heading-gray(46px);
     margin-bottom: 75px;
     letter-spacing: 0.02em;
+
+    @include breakpoint(max-width $mb) {
+      font-size: 36px;
+    }
   }
 
   &__list {

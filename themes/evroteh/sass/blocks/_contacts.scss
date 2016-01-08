@@ -12,6 +12,10 @@
     margin-bottom: 75px;
     letter-spacing: 0.02em;
     text-align: center;
+
+    @include breakpoint(max-width $mb) {
+      font-size: 36px;
+    }
   }
 
   &__left {
@@ -97,7 +101,13 @@
     &--5 {
       margin-bottom: 0;
 
-      @include breakpoint(max-width $xs - 1) {
+      @include breakpoint(max-width $mb - 1) {
+        position: absolute;
+        bottom: 80px;
+        left: 15%;
+      }
+
+      @include breakpoint($mb $xs - 1) {
         position: absolute;
         bottom: 80px;
         left: 25%;
@@ -123,9 +133,7 @@
     display: inline-block;
     width: 32%;
     vertical-align: top;
-
-    margin-top: 20px;
-    margin-left: 20px;
+    margin: 20px 0 0 20px;
     color: #fff;
     font-family: $heliosc-cond;
     font-size: 19px;
@@ -133,8 +141,10 @@
     letter-spacing: 0.03em;
 
     @include breakpoint(max-width $xs - 1) {
-      width: 100%;
+      width: 80%;
       display: block;
+      margin-left: auto;
+      margin-right: auto;
       text-align: center;
       position: relative;
       top: 50px;
