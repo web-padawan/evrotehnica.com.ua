@@ -30,7 +30,7 @@
     });
 
     $('.navbar__nav').singlePageNav({
-      offset: 72,
+      offset: ($(window).width() >= 1200) ? 72 : 0,
       filter: ':not(.external)',
       updateHash: true,
       beforeStart: function() {
