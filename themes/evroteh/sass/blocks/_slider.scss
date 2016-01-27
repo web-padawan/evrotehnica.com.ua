@@ -56,12 +56,14 @@
     }
 
     .views-row-1 & {
-      right: 60px;
-      bottom: 60px;
+      background: image-url('logo-large.png') no-repeat;
+      right: 40px;
+      bottom: 85px;
     }
     .views-row-2 & {
-      top: 230px;
-      left: 20px;
+      background: image-url('logo-medium.png') no-repeat;
+      top: 510px;
+      left: 140px;
     }
     .views-row-3 & {
       bottom: 140px;
@@ -73,7 +75,7 @@
     padding-left: 20px;
     font-family: $pobeda;
     font-weight: bold;
-    border-left: solid 2px #fff;
+    border-left: solid 2px #fe6a36;
     line-height: 0.9;
 
     // small screen
@@ -84,16 +86,17 @@
     }
 
     .views-row-1 & {
-      top: 41%;
-      left: 21%;
+      top: 20%;
+      left: 36%;
     }
     .views-row-2 & {
-      top: 320px;
-      left: 5px;
+      top: 17%;
+      left: 8%;
     }
     .views-row-3 & {
       bottom: 75px;
       left: 30%;
+      border-left: solid 2px #fff;
     }
   }
 
@@ -104,7 +107,11 @@
       font-size: 98px;
       letter-spacing: -0.015em;
       .views-row-1 & {
-        color: #fff;
+        color: #01abe3;
+      }
+      .views-row-2 & {
+        color: #01abe3;
+        font-size: 110px;
       }
       @include breakpoint(max-width $mb) {
         font-size: 64px;
@@ -114,6 +121,13 @@
       font-size: 60px;
       color: #02b2ec;
       letter-spacing: -0.005em;
+      .views-row-1 & {
+        color: #595959;
+      }
+      .views-row-2 & {
+        color: #fff;
+        font-size: 72px;
+      }
 
       @include breakpoint(max-width $mb) {
         font-size: 50px;
@@ -122,6 +136,12 @@
     &--3 {
       font-size: 43px;
       color: #fff;
+      .views-row-1 & {
+        color: #595959;
+      }
+      .views-row-2 & {
+        font-size: 52px;
+      }
 
       @include breakpoint(max-width $mb) {
         font-size: 30px;
