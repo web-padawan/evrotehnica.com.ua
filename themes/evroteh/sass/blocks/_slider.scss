@@ -59,11 +59,17 @@
       background: image-url('logo-large.png') no-repeat;
       right: 40px;
       bottom: 85px;
+      @include breakpoint(max-width $lg - 1) {
+        background-size: contain;
+      }
     }
     .views-row-2 & {
       background: image-url('logo-medium.png') no-repeat;
       top: 510px;
       left: 140px;
+      @include breakpoint(max-width $lg - 1) {
+        background-size: contain;
+      }
     }
     .views-row-3 & {
       bottom: 140px;
@@ -112,6 +118,9 @@
       .views-row-2 & {
         color: #01abe3;
         font-size: 110px;
+        @include breakpoint(max-width $mb) {
+          font-size: 64px;
+        }
       }
       @include breakpoint(max-width $mb) {
         font-size: 64px;
@@ -127,6 +136,9 @@
       .views-row-2 & {
         color: #fff;
         font-size: 72px;
+        @include breakpoint(max-width $mb) {
+          font-size: 50px;
+        }
       }
 
       @include breakpoint(max-width $mb) {
@@ -141,6 +153,9 @@
       }
       .views-row-2 & {
         font-size: 52px;
+        @include breakpoint(max-width $mb) {
+          font-size: 30px;
+        }
       }
 
       @include breakpoint(max-width $mb) {
