@@ -1,3 +1,6 @@
+<?php
+  print render($page['content']['metatags']);
+?>
 <div<?php print $attributes; ?>>
 
   <nav class="navbar">
