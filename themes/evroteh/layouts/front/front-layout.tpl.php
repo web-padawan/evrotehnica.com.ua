@@ -1,5 +1,5 @@
 <?php
-  print render($page['content']['metatags']);
+  render($page['content']['metatags']);
 ?>
 <div<?php print $attributes; ?>>
 
