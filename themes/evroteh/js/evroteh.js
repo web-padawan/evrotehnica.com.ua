@@ -39,6 +39,12 @@
       }
     });
 
+    $('#expand').click(function(ev) {
+      ev.preventDefault();
+      $('.details__content').removeClass('details__content--half-shown');
+      $(this).hide();
+    });
+
   $('.subscribe [name="submitted[source]"]').val('Заявка на получение дилерства');
   $('#popup-subscribe [name="submitted[source]"]').val('Заявка на получение дилерства');
   $('#popup-feedback [name="submitted[source]"]').val('Сообщение через форму обратной связи');

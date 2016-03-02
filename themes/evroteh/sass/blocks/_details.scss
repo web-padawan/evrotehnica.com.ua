@@ -1,0 +1,54 @@
+.details {
+  padding: 20px;
+  background: #404040;
+  color: #c1c1c1;
+  font-size: 16px;
+  line-height: 1.25;
+
+  &__container {
+    @extend %container;
+    max-width: 768px;
+  }
+
+  &__content {
+    position: relative;
+
+    &--half-shown {
+      height: 270px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+
+  &__title {
+    margin: 16px 0;
+    color: #e1e1e1;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  &__subtitle {
+    color: #e1e1e1;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  &__list {
+    margin: 16px 0;
+    padding-left: 20px;
+  }
+
+  &__text {
+    margin: 16px 0;
+  }
+
+  &__expand {
+    display: block;
+    margin-top: 20px;
+    color: #04ade4;
+    font-family: $heliosc-cond;
+    font-size: 19px;
+  }
+}
