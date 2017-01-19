@@ -144,7 +144,7 @@
         </div>
         <div class="contacts__card contacts__card--2">
           <div class="contacts__adr">Отдел продаж климатического и&nbsp;отопительного оборудования</div>
-          <div class="contacts__tel">(050) 420-11-41, (050) 931-15-15</div>
+          <div class="contacts__tel">(050) 931-55-15, (050) 420-12-11</div>
         </div>
         <div class="contacts__card contacts__card--3">
           <div class="contacts__adr">Отдел продаж бытовой и&nbsp;встраиваемой&nbsp;техники</div>
