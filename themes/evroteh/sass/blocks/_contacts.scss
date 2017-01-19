@@ -236,5 +236,8 @@
     &--google {
       @include s(google);
     }
+    &--instagram {
+      @include s(instagram);
+    }
   }
 }

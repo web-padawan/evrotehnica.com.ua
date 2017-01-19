@@ -173,7 +173,8 @@
           <h3 class="contacts__sochead">Мы в соц. сетях:</h3>
           <a class="contacts__link contacts__link--facebook" href="https://www.facebook.com/Евротехника-интернет-магазин-бытовой-техники-1494970517441419/" title="Facebook">&nbsp;</a>
           <a class="contacts__link contacts__link--vkontakte" href="http://vk.com/club70521286" title="Вконтакте">&nbsp;</a>
-          <a class="contacts__link contacts__link--google"href="https://plus.google.com/+ConditionUa/about" title="Google+">&nbsp;</a>
+          <a class="contacts__link contacts__link--google" href="https://plus.google.com/+ConditionUa/about" title="Google+">&nbsp;</a>
+          <a class="contacts__link contacts__link--instagram" href="https://www.instagram.com/eurotehnika/" title="Instagram">&nbsp;</a>
         </div>
       </div>
     </div>
